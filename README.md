@@ -4,7 +4,7 @@ Welcome to the repository for my personal portfolio! This is a clean, highly res
 
 ## 🚀 Live Demo
 The portfolio is deployed and currently live on Vercel:
-**[View Live Portfolio](https://myportfolio-pi-nine-58.vercel.app/)**
+**[View Live Portfolio](https://myportfolio-blue-xi-27.vercel.app/)**
 
 ## 🛠️ Technology Stack
 This project was intentionally built without heavy frameworks to maximize performance, control, and simplicity:
