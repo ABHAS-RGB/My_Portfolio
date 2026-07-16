@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhas Mishra - Portfolio</title>
+    <meta name="description" content="Portfolio of Abhas Mishra, Software Engineer, AWS Enthusiast, and IEEE Researcher.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Background Decorative Elements -->
+    <div class="bg-decoration">
+        <div class="blob primary-blob"></div>
+        <div class="blob secondary-blob"></div>
+    </div>
+
+    <!-- NAVBAR -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#home" class="logo">AM<span>.</span></a>
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="mobile-menu-btn" id="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+        <!-- Mobile Menu -->
+        <div class="mobile-menu" id="mobile-menu">
+            <a href="#home" class="mobile-link">Home</a>
+            <a href="#about" class="mobile-link">About</a>
+            <a href="#projects" class="mobile-link">Projects</a>
+            <a href="#contact" class="mobile-link">Contact</a>
+        </div>
+    </nav>
+
+    <!-- MAIN CONTENT -->
+    <main>
+        <!-- HERO SECTION -->
+        <section id="home" class="hero">
+            <div class="container hero-container">
+                <div class="hero-content fade-in-left">
+                    <span class="badge">Future Software Engineer</span>
+                    <h1 class="hero-title">
+                        Hi, I'm <br>
+                        <span class="text-gradient">Abhas Mishra</span>
+                    </h1>
+                    <h2 class="hero-subtitle">SDE | AWS Enthusiast | IEEE Researcher</h2>
+                    <p class="hero-description">
+                        I build scalable web applications, explore cloud technologies, and create solutions that combine technology, research, and leadership.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">
+                            View Projects <i class="fas fa-arrow-right"></i>
+                        </a>
+                        <a href="resume.pdf" target="_blank" class="btn btn-secondary" download="Abhas_Mishra_Resume.pdf">
+                            Download Resume <i class="fas fa-download"></i>
+                        </a>
+                        <a href="#contact" class="btn btn-outline">
+                            Contact Me <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                    <div class="hero-socials">
+                        <a href="https://github.com/ABHAS-RGB" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://linkedin.com/in/abhas-mishra" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="hero-image-container fade-in-right">
+                    <div class="hero-image-wrapper">
+                        <div class="hero-image-inner">
+                            <span class="fallback-initials">AM</span>
+                            <img src="profile.jpg" alt="Abhas Mishra" onerror="this.style.display='none'">
+                        </div>
+                        <div class="floating-badge badge-top">
+                            <span class="dot bg-success"></span> Available for Hire
+                        </div>
+                        <div class="floating-badge badge-bottom">
+                            🚀 AWS Enthusiast
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT SECTION -->
+        <section id="about" class="section about">
+            <div class="container">
+                <div class="section-header fade-in-up">
+                    <h2 class="section-title">About Me</h2>
+                    <p class="section-subtitle">A brief introduction to my background and goals.</p>
+                </div>
+                <div class="card glass-card fade-in-up">
+                    <p class="about-text" style="margin-bottom: 1rem;">
+                        I am a motivated and adaptable Computer Science student with a strong foundation in software development, cloud computing, and problem-solving. My technical expertise spans building scalable full-stack applications using Python, Java, and modern web technologies, alongside hands-on experience with AWS cloud services and data analysis tools.
+                    </p>
+                    <p class="about-text" style="margin-bottom: 1rem;">
+                        Beyond coding, I am deeply committed to innovation and leadership. I am currently working on an IEEE 2026 research paper analyzing cloud service policies and proudly serving as a College Ambassador for Techfest IIT Bombay. 
+                    </p>
+                    <p class="about-text">
+                        As an active NSS Vice President and frequent management team leader for large-scale university events, I thrive in collaborative, fast-paced environments. I am eager to leverage my blend of technical acumen, research experience, and leadership skills to contribute to impactful, technology-driven solutions.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- SKILLS SECTION -->
+        <section id="skills" class="section skills">
+            <div class="container">
+                <div class="section-header fade-in-up">
+                    <h2 class="section-title">Technical Skills</h2>
+                    <p class="section-subtitle">Technologies and tools I work with.</p>
+                </div>
+                <div class="skills-grid fade-in-up">
+                    <div class="skill-tag">JavaScript / TypeScript</div>
+                    <div class="skill-tag">React / Next.js</div>
+                    <div class="skill-tag">HTML5 & CSS3</div>
+                    <div class="skill-tag">Node.js / Express</div>
+                    <div class="skill-tag">Python / Flask</div>
+                    <div class="skill-tag">Java / C++</div>
+                    <div class="skill-tag">AWS Cloud Services</div>
+                    <div class="skill-tag">SQL / NoSQL</div>
+                    <div class="skill-tag">Git & GitHub</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJECTS SECTION -->
+        <section id="projects" class="section projects">
+            <div class="container">
+                <div class="section-header fade-in-up">
+                    <h2 class="section-title">Featured Projects</h2>
+                    <p class="section-subtitle">Showcasing my technical abilities through full-stack web applications and tools.</p>
+                </div>
+                
+                <div class="projects-list">
+                    
+                    <!-- Project 1: Canteen Management -->
+                    <div class="card project-card fade-in-up">
+                        <div class="project-image" style="background: linear-gradient(135deg, rgba(59,130,246,0.2), rgba(139,92,246,0.2));">
+                            <div class="project-image-text">Canteen Management</div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Online Canteen Food Ordering and Management</h3>
+                            <p class="project-desc">A smart digital platform that streamlines food ordering, inventory management, and operational efficiency within institutional environments. Features student ordering and an admin dashboard.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">React</span>
+                                <span class="tech-tag">Node.js</span>
+                                <span class="tech-tag">MongoDB</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/ABHAS-RGB" target="_blank" class="btn btn-secondary"><i class="fab fa-github"></i> Code</a>
+                                <a href="https://canteen-mangement-system.vercel.app/" target="_blank" class="btn btn-outline"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2: Minicache -->
+                    <div class="card project-card fade-in-up">
+                        <div class="project-image" style="background: linear-gradient(135deg, rgba(34,197,94,0.2), rgba(20,184,166,0.2));">
+                            <div class="project-image-text">Minicache</div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Minicache</h3>
+                            <p class="project-desc">A lightweight, highly performant caching solution designed to speed up application data retrieval. Implements efficient eviction policies and thread-safe operations.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Java</span>
+                                <span class="tech-tag">Data Structures</span>
+                                <span class="tech-tag">Algorithms</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/ABHAS-RGB/Minicache" target="_blank" class="btn btn-secondary"><i class="fab fa-github"></i> Code</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 3: Gender Sense -->
+                    <div class="card project-card fade-in-up">
+                        <div class="project-image" style="background: linear-gradient(135deg, rgba(236,72,153,0.2), rgba(168,85,247,0.2));">
+                            <div class="project-image-text">GenderSense</div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">GenderSense</h3>
+                            <p class="project-desc">An educational platform providing comprehensive guidance and awareness regarding gender identity and related resources to foster an inclusive environment.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">HTML/CSS</span>
+                                <span class="tech-tag">JavaScript</span>
+                                <span class="tech-tag">Educational Tech</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/ABHAS-RGB/Gender_Sense" target="_blank" class="btn btn-secondary"><i class="fab fa-github"></i> Code</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 4: Research Paper -->
+                    <div class="card project-card fade-in-up">
+                        <div class="project-image" style="background: linear-gradient(135deg, rgba(234,179,8,0.2), rgba(249,115,22,0.2));">
+                            <div class="project-image-text">Cloud Policies</div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Research Paper – Comparing Cloud Service Policies</h3>
+                            <p class="project-desc">Currently working on a research paper for IEEE 2026 in cloud computing and service comparing policies for maximum efficiency. Also developed an accompanying application.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Cloud Computing</span>
+                                <span class="tech-tag">IEEE Research</span>
+                                <span class="tech-tag">AWS</span>
+                            </div>
+                            <div class="project-links">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- EXPERIENCE, ACHIEVEMENTS, ETC SECTION (Combined for brevity but mimicking original structure) -->
+        <section id="experience" class="section experience">
+            <div class="container">
+                <div class="section-header fade-in-up">
+                    <h2 class="section-title">Experience & Achievements</h2>
+                    <p class="section-subtitle">My professional journey and notable milestones.</p>
+                </div>
+                <div class="card glass-card fade-in-up" style="margin-bottom: 1.5rem;">
+                    <h3 style="font-size: 1.25rem; font-weight: 700; margin-bottom: 0.5rem; color: var(--color-primary);">PRODIGY INFOTECH</h3>
+                    <p style="font-size: 0.9rem; color: var(--color-muted); margin-bottom: 0.5rem;">25/6/2025 - 25/7/2025</p>
+                    <p class="text-muted">Gained hands-on experience in project deployment and development workflows. Completed many projects under mentor's supervision and delivered 4 projects independently under mentor guidance.</p>
+                </div>
+                <div class="card glass-card fade-in-up" style="margin-bottom: 1.5rem;">
+                    <h3 style="font-size: 1.25rem; font-weight: 700; margin-bottom: 0.5rem; color: var(--color-primary);">TECHFEST COLLEGE AMBASSADOR (IIT BOMBAY)</h3>
+                    <p style="font-size: 0.9rem; color: var(--color-muted); margin-bottom: 0.5rem;">01/07/2025 - 01/02/2026</p>
+                    <p class="text-muted">Contributed in many tasks like web designing, content writing, and problem solving.</p>
+                </div>
+                <div class="card glass-card fade-in-up" style="margin-bottom: 1.5rem;">
+                    <h3 style="font-size: 1.25rem; font-weight: 700; margin-bottom: 0.5rem; color: var(--color-primary);">NSS Vice President</h3>
+                    <p class="text-muted">Active NSS volunteer, committed to social responsibility and community service alongside technical pursuits. Conducted many interstate events.</p>
+                </div>
+                <div class="card glass-card fade-in-up" style="margin-bottom: 1.5rem;">
+                    <h3 style="font-size: 1.25rem; font-weight: 700; margin-bottom: 0.5rem; color: var(--color-primary);">Orientation Program for Freshers – Management Team Leader</h3>
+                    <p class="text-muted">Helped organize and host a 5-day orientation for over 1200 new students. Led student coordination, activity planning, and real-time event support.</p>
+                </div>
+                <div class="card glass-card fade-in-up" style="margin-bottom: 1.5rem;">
+                    <h3 style="font-size: 1.25rem; font-weight: 700; margin-bottom: 0.5rem; color: var(--color-primary);">Convocation for Graduated Students – Management Team Leader</h3>
+                    <p class="text-muted">Hosted and helped in managing convocation for over 600+ students. Led student, Parent, and Chief Guest and managing team.</p>
+                </div>
+                <div class="card glass-card fade-in-up mb-4">
+                    <h3 class="text-xl font-bold mb-2">GitHub Activity</h3>
+                    <p class="text-muted">Consistently contributing to open-source and personal projects. Check out my latest work on GitHub!</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT SECTION -->
+        <section id="contact" class="section contact">
+            <div class="container">
+                <div class="section-header fade-in-up">
+                    <h2 class="section-title">Get In Touch</h2>
+                    <p class="section-subtitle">Have a question or want to work together?</p>
+                </div>
+                <div class="contact-wrapper fade-in-up" style="display: flex; gap: 2rem; flex-wrap: wrap; justify-content: center;">
+                    <!-- Email Card -->
+                    <div class="card glass-card text-center" style="flex: 1; min-width: 280px;">
+                        <i class="fas fa-envelope text-primary" style="font-size: 2rem; margin-bottom: 1rem;"></i>
+                        <h3 class="text-xl font-bold mb-2">Email Me</h3>
+                        <p class="text-muted mb-4">Feel free to reach out for collaborations or just a friendly hello.</p>
+                        <a href="mailto:abhashmishra457@gmail.com" class="btn btn-primary" style="word-break: break-all;">abhashmishra457@gmail.com</a>
+                    </div>
+                    <!-- Phone Card -->
+                    <div class="card glass-card text-center" style="flex: 1; min-width: 280px;">
+                        <i class="fas fa-phone text-secondary" style="font-size: 2rem; margin-bottom: 1rem;"></i>
+                        <h3 class="text-xl font-bold mb-2">Call Me</h3>
+                        <p class="text-muted mb-4">Available for urgent professional inquiries or opportunities.</p>
+                        <a href="tel:+919151534475" class="btn btn-primary">9151534475</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">AM<span>.</span></div>
+                <p class="footer-text">&copy; 2026 Abhas Mishra. All rights reserved.</p>
+                <div class="footer-socials">
+                    <a href="https://github.com/ABHAS-RGB" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://linkedin.com/in/abhas-mishra" target="_blank"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Custom Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
