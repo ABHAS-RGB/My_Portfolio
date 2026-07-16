@@ -4,7 +4,7 @@ Welcome to the repository for my personal portfolio! This is a clean, highly res
 
 ## 🚀 Live Demo
 The portfolio is deployed and currently live on Vercel:
-**[View Live Portfolio](https://my-portfolio-abhas1s-projects.vercel.app/)** *(Note: Update this link with your exact `my-portfolio.vercel.app` URL)*
+**[View Live Portfolio](https://vercel.com/abhas1/my_portfolio/CsjJDNZ5CQWNPstxbTJTMrgyfUyF)**
 
 ## 🛠️ Technology Stack
 This project was intentionally built without heavy frameworks to maximize performance, control, and simplicity:
